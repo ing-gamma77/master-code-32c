@@ -1,0 +1,57 @@
+.card{
+    background-color: red;
+    /* Direccion del relog Top, Right, bottom, Left*/
+    margin: 0 0 100px 5px;
+    border: #4afa05 5px double;
+    border-top: #b11b98 10px solid;
+    padding: 15px;
+    width: 500px;
+}
+
+.card-dos{
+    background-color: aquamarine;
+    box-sizing: border-box;
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.card-dos p{
+    color: blue;
+}
+
+.card-tres{
+    background-color: brown;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    }
+
+.card-tres p{
+    color: white;
+}
+
+.contenedor-imagen {
+    position: relative;
+}
+
+.contenedor-imagen img {
+    /*position: absolute;*/
+}
+
+#arbol{
+    z-index: 1;
+}
+
+#carta{
+    z-index: 2;
+    margin-top: 100px;
+}
+
+.contenedor-display{
+    background-color: #4afa05;
+}
+.contenedor-display a{
+    display: inline;
+    margin: 0 10px;
+}

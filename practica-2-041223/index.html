@@ -6,7 +6,10 @@
     <title>Formularios</title>
     <link rel="shortcut icon" href="./img/logo-pinterest.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
+ </head>
 <body>
     <header class="encabezado">                         
         <!--Header es el encabezado de mi pagina WEB, me sirve para agrupar el menu de navegacion, el nombre de mi pagina y el buscador-->
@@ -24,11 +27,54 @@
     <main class="contenido-principal">
         <!--main me ayuda a identificar la informacion principal de mi pagina web
         Nota: Generalmente sol existe una etiqueta main por pagina-->
+        <section class="seccion-inicio">
+            <h2 class="titulo-de-seccion">Bienvenido a mi sitio</h2>
+            <p class="texto-de-seccion">Bienvenido a mi primer sitio WEB donde hago un formulario</p>
+        </section>
+        <section class="seccion-de-contacto">
+            <h2 class="titulo-de-seccion">Contacto</h2>
+            <form class="formulario-de-contacto" action="">
+                <label class="form-label" for="nombre" >Nombre:</label>
+                <input class="form-input" id="nombre" required type="text" placeholder="Nombre">
+                
+                <label class="form-label" for="email">Correo:</label>
+                <input class="form-input" id="email" type="email" required placeholder="Email">
+                
+                <label class="form-label" for="mensaje">Mensaje:</label>
+                <textarea class="form-textarea" id="mensaje" rows="4" type="textarea" required placeholder="Texto"></textarea>
+                
+                <button class="form-boton" type="submit">Enviar</button>
+            </form>
+            <br>
+        <section class="seccion-ejercicio">
+            <img class="ima-usuario" src="./img/usuario.jpg" width="100">
+            <form class="formulario-de-ejercicio" action="">
+                <label class="para-label" for="username"><b>Username</b></label>
+                <input class="para-input" id="username" type="text" placeholder="Enter Username">
+                <br><br>
+                <label class="para-label" for=""><b>Password</b></label>
+                <input class="para-input" type="password" placeholder="Enter Password" name="" id="">
+                <br><br>
+                <b></b>
+                <button class="boton-ejercicio" type="submit" >Login</button>
+                <br><br>
+                <input class="input-casilla" type="checkbox" name="casilla" id=""><b>Remember me</b>
+                <br><br>
+                <button class="boton-cancel" type="submit">Cancel</button>
+                <p class="parrafo-ejercicio"><b>Forgot</b> <b class="password">password?</b></p>
+                
+            </form>
+        </section>    
+            
+
+        </section>
     </main>
     <footer class="pie-de-pagina">
         <!--Footer me sirve para colocar el autor de la pagina, terminos y condiciones, redes sociales, contactos, etc-->
         <p class="texto-de-footer">2023 Mi sitio WEB</p>
         <p>Creado por Gamaliel Macias</p>
     </footer>
+    
+    
 </body>
 </html>

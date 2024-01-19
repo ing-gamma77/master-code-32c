@@ -1,0 +1,51 @@
+
+body{
+    background-color: rgb(189, 223, 37);
+    width: 50%
+    font-family: 'Romanesco', cursive;
+    }
+    
+h1{
+        color: rgb(36, 156, 110)! important;
+    }
+
+h1{
+    background-color: rgb(46, 59, 231);
+    color: rgb(236, 84, 84);
+    }
+
+
+h1:hover{
+    color: black;
+}
+
+h1::first-letter{
+    color: rgb(219, 212, 224);
+}
+
+.titulo-de-seccion{
+    color: brown;
+}
+
+.link-de-navegacion{
+    text-decoration: none;
+}
+
+
+.boton-ejercicio{
+    background-color: darkgreen;
+    width: 250px;
+    color: white;
+}
+.boton-cancel{
+    background-color: red;
+    color: white;
+}
+.password{
+    text-decoration: underline;
+    color: blue;
+}
+
+.input-casilla{
+    background-color: blue;
+}
